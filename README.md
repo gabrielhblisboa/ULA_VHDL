@@ -1,2 +1,2 @@
 # ULA_VHDL
-VHDL Code for implementation of a Arithmetic Logic Unit (ALU) in an FPGA.
+Code for implementing a device that features an Arithmetic Logic Unit (ALU) and a test interface system. This project was developed and implemented using Xilinx's ISE interface, simulated in ISim (a simulator integrated into ISE), and physically tested on a Xilinx development board with a Spartan-3 XC3S700A-FG484 FPGA chip. For hardware testing, LEDs on the development board indicate the outcomes, while switches select the ALU operation, and push buttons, along with a board switch, manage the inputs. This project was coded in VHDL, with all module files mentioned and available in the appendix.
