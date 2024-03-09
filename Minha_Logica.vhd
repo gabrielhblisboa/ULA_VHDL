@@ -4,7 +4,7 @@
 -- 
 -- Create Date:    22:35:34 05/05/2023 
 -- Design Name: 
--- Module Name:    Minha_Logica - Behavioral 
+-- Module Name:    MUX - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,7 +29,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Minha_Logica is
+entity MUX is
     
 	 Port ( selecao : in  STD_LOGIC_VECTOR (2 downto 0);
 			  A : in  STD_LOGIC_VECTOR (3 downto 0);	
@@ -38,10 +38,10 @@ entity Minha_Logica is
 			  saida : out  STD_LOGIC_VECTOR (3 downto 0);
 			  Cout: out STD_LOGIC);
 
-end Minha_Logica;
+end MUX;
 
 
-architecture Behavioral of Minha_Logica is
+architecture Behavioral of MUX is
 
 component AND_ULA is
     Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
