@@ -47,7 +47,7 @@ end maq_estados;
 
 architecture Behavioral of maq_estados is
 
-component Minha_Logica is
+component MUX is
   
 	 Port ( selecao : in  STD_LOGIC_VECTOR (2 downto 0);
 			  A : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -79,13 +79,13 @@ begin
 
 	dividir_clock: divisor_freq port map (clk_50MHz, clk_2seg);
 	
-	AND_ULA: Minha_Logica port map ("000", A, B, Cin, Z0, c(0));
-	OR_ULA: Minha_Logica port map ("001", A, B, Cin, Z1, c(1));
-	NOT_ULA: Minha_Logica port map ("010", A, B, Cin, Z2, c(2));
-	XOR_ULA: Minha_Logica port map ("011", A, B, Cin, Z3, c(3));
-	SOMA_ULA: Minha_Logica port map ("100", A, B, Cin, Z4, c(4));
-	SUB_ULA: Minha_Logica port map ("101", A, B, Cin, Z5, c(5));
-	MULT_ULA: Minha_Logica port map ("110", A, B, Cin, Z6, c(6));
+	AND_ULA: MUX port map ("000", A, B, Cin, Z0, c(0));
+	OR_ULA: MUX port map ("001", A, B, Cin, Z1, c(1));
+	NOT_ULA: MUX port map ("010", A, B, Cin, Z2, c(2));
+	XOR_ULA: MUX port map ("011", A, B, Cin, Z3, c(3));
+	SOMA_ULA: MUX port map ("100", A, B, Cin, Z4, c(4));
+	SUB_ULA: MUX port map ("101", A, B, Cin, Z5, c(5));
+	MULT_ULA: MUX port map ("110", A, B, Cin, Z6, c(6));
 	
 	
 	process (clk_2seg, estadoAux)
