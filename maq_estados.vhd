@@ -4,7 +4,7 @@
 -- 
 -- Create Date:    17:27:58 04/28/2023 
 -- Design Name: 
--- Module Name:    VetorFixo - Behavioral 
+-- Module Name:    maq_estados - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,7 +29,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity VetorFixo is
+entity maq_estados is
     Port ( clk_50MHz: in STD_LOGIC;
 			  vetor : in  STD_LOGIC_VECTOR (3 downto 0);
 			  botaoA: in STD_LOGIC;
@@ -42,10 +42,10 @@ entity VetorFixo is
 			  led_S: out STD_LOGIC;
 			  display_leds : out  STD_LOGIC_VECTOR (3 downto 0);
 			  Cout: out STD_LOGIC);
-end VetorFixo;
+end maq_estados;
 
 
-architecture Behavioral of VetorFixo is
+architecture Behavioral of maq_estados is
 
 component Minha_Logica is
   
