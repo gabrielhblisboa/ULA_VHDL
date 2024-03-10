@@ -34,7 +34,7 @@ entity NOT_ULA is
            E : out  STD_LOGIC_VECTOR (3 downto 0));
 end NOT_ULA;
 
-Sarchitecture Behavioral of NOT_ULA is
+architecture Behavioral of NOT_ULA is
 
 begin
 
