@@ -32,10 +32,6 @@ For hardware testing:
 
 A more detailed description on the operation of the implemented design in hardware is featured on the lab report "Relatorio_SD_ULA.pdf".
 
-
-## License
-[Specify the license under which this project is available, e.g., MIT, GPL]
-
 ## Project Authors
 Gabriel H. B. Lisboa; Martina Marques Jardim
 
