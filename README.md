@@ -38,4 +38,5 @@ A more detailed description on the operation of the implemented design in hardwa
 
 ## Project Authors
 Gabriel H. B. Lisboa; Martina Marques Jardim
+
 Electronics and Computing Engineering - Federal University of Rio de Janeiro (UFRJ)
