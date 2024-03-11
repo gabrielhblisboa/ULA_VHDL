@@ -4,7 +4,7 @@
 This repository contains the VHDL code for implementing a device featuring an Arithmetic Logic Unit (ALU) with a test interface system. It is designed for FPGA boards and provides both the simulation and implementation aspects of digital design using VHDL.
 
 ## Features
-- ALU capable of performing a variety of arithmetic and logical operations.
+- ALU capable of performing 3 arithmetic operations (sum, subtraction and multiplication) and 4 logical operations (NOT, AND, OR, XOR) between two 4-bit vectors.
 - Testbench files for simulation of the ALU design.
 - Hardware testing capabilities using LEDs, switches, and push buttons on the FPGA board.
 
