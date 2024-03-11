@@ -1,4 +1,4 @@
-# ULA_VHDL
+# Arithmetic Logic Unit (ALU) implementation on a FPGA
 
 ## Overview
 This repository contains the VHDL code for implementing a device featuring an Arithmetic Logic Unit (ALU) with a test interface system. The project is designed for FPGA boards and provides both the simulation and implementation aspects of digital design using VHDL.
@@ -17,7 +17,7 @@ The project was developed using:
 ## Files Description
 - *SimULA.vhd*: Testbench file for simulating the basic functionalities of the ALU.
 - *Sim_ULA.vhd*: Testbench file for more extensive simulation scenarios of the ALU.
-- *Relatorio_SD_ULA.pdf*: A comprehensive lab report detailing the simulation results, implementation process, and testing methodologies on the FPGA board.
+- *Relatorio_SD_ULA.pdf*: A comprehensive lab report detailing the VHDL modules, simulation results, implementation process, and testing methodologies on the FPGA board.
 
 ## Getting Started
 To get started with this project, clone this repository and open the project files in Xilinx ISE. You will need to have Xilinx ISE and ISim installed on your computer to compile the VHDL code and run simulations.
@@ -29,11 +29,13 @@ For hardware testing:
 3. Use push buttons and a board switch to manage the inputs to the ALU.
 4. Observe the outcomes of ALU operations through LEDs on the development board.
 
-## Contributing
-Contributions to this project are welcome. Please ensure to follow coding standards and add comments for clarity when submitting pull requests.
+
+A more detailed description on the operation of the implemented design in hardware is featured on the lab report "Relatorio_SD_ULA.pdf".
+
 
 ## License
 [Specify the license under which this project is available, e.g., MIT, GPL]
 
-## Contact
-For any inquiries or contributions, please [specify contact method, e.g., create an issue in this repository].
+## Project Authors
+Gabriel H. B. Lisboa; Martina Marques Jardim
+Electronics and Computing Engineering - Federal University of Rio de Janeiro (UFRJ)
