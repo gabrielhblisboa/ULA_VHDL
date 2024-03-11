@@ -1,7 +1,7 @@
 # Arithmetic Logic Unit (ALU) implementation on a FPGA
 
 ## Overview
-This repository contains the VHDL code for implementing a device featuring an Arithmetic Logic Unit (ALU) with a test interface system. The project is designed for FPGA boards and provides both the simulation and implementation aspects of digital design using VHDL.
+This repository contains the VHDL code for implementing a device featuring an Arithmetic Logic Unit (ALU) with a test interface system. It is designed for FPGA boards and provides both the simulation and implementation aspects of digital design using VHDL.
 
 ## Features
 - ALU capable of performing a variety of arithmetic and logical operations.
